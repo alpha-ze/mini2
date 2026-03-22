@@ -1,0 +1,10 @@
+.env
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+grievances.db
+*.log
+ml-service/venv/
+ml-service/__pycache__/
+ml-service/**/__pycache__/
+*.pyc

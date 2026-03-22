@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-grievance-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for grievance management",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start:twilio": "node bot-twilio.js",
+    "dashboard": "node dashboard.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.6",
+    "twilio": "^5.12.2",
+    "whatsapp-web.js": "^1.25.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
